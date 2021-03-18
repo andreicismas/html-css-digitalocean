@@ -1,18 +1,41 @@
-.navbar_style{
-    margin-bottom: 0px;
+.navbar_style .nav>li>a {
+    padding: 15px 7px;
+    color: #1E3460;
+    font-size: 14px;
 }
 
 .img_responsive{
-    height: 140%;
+    height: 100%;
 }
 
 .hamburger_style{
     background-color: #2485fd;
 }
 
-
-main .section_1{
+.section_1{
     background-image: url(img/bg-banner-home.jpg)
+}
+
+.navbar-right >.sign_up_btn{
+    background-color: white;
+    border: 1px solid blue;
+    color: blue;
+}
+
+@media (min-width:1200px)  { 
+
+    .ul_my_style{
+        margin-left: 14%;
+    }
+     
+}
+
+@media (min-width:992px) and (max-width:1200px) { 
+
+    .ul_my_style{
+        margin-left: 12%;
+    }
+     
 }
 
 
@@ -24,4 +47,12 @@ main .section_1{
 
 .pb_30{
     padding-bottom: 30px;
+}
+
+.mb_0{
+    margin-bottom: 0;
+}
+
+.border{
+    border:1px solid blue ;
 }
