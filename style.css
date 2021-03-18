@@ -3,8 +3,13 @@
 }
 
 .img_responsive{
-    width: 15%;
+    height: 140%;
 }
+
+.hamburger_style{
+    background-color: #2485fd;
+}
+
 
 main .section_1{
     background-image: url(img/bg-banner-home.jpg)
