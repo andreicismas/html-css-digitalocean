@@ -1,0 +1,22 @@
+.navbar_style{
+    margin-bottom: 0px;
+}
+
+.img_responsive{
+    width: 15%;
+}
+
+main .section_1{
+    background-image: url(img/bg-banner-home.jpg)
+}
+
+
+/* utility classes */
+
+.pt_30{
+    padding-top: 50px;
+}
+
+.pb_30{
+    padding-bottom: 30px;
+}
