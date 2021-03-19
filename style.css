@@ -71,7 +71,9 @@ form .btn_form_2 {
     top: 4px;
 }
 
- .section_1 a:hover{
+ .section_1 a:hover,
+ .section_2 a:hover,
+ .section_3 a:hover{
     text-decoration: none;
 }
 
@@ -85,9 +87,13 @@ form .btn_form_2 {
 }
 
 .my_logos{
-    width: 100%;
+    width: 110%;
     height: 130px;
     
+}
+
+.font_text{
+    font-size: x-large;
 }
 @media (min-width:992px)  { 
 
