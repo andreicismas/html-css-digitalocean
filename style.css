@@ -3,7 +3,11 @@
     color: #1E3460;
     font-size: 14px;
 }
-
+.navbar-right >.sign_up_btn{
+    background-color: white;
+    border: 1px solid blue;
+    color: blue;
+}
 .img_responsive{
     height: 100%;
 }
@@ -20,56 +24,90 @@
 .section_1{
     background-image: url(img/bg-banner-home.jpg)
 }
- .section_1 h1{
-     font-size: 41px;
- }
+.section_1 h1>strong{
+     font-size: 50px;
+}
+.section_1 p {
+    color: #B6C8FF;
+    font-size: 20px;
+}
+.my_style_pannel{
+    color: #031C4E;
+    padding-bottom: 0;
+}
+.my_blue_text{
+    line-height: 1.5;
+}
 
-.navbar-right >.sign_up_btn{
+.btn_form{
+    font-size: 18px;
+    padding: 0;
+    background-color: #579AFF;
+}
+.btn_form_2{
+    position: relative;
+    font-size: 18px;
+    padding: 0;
     background-color: white;
-    border: 1px solid blue;
-    color: blue;
+    border: 1px solid lightgray; 
+}
+
+.icon_google {
+    width: 17px;
+    position: absolute;
+    left: 25px;
+    top: 4px;
 }
 
 @media (min-width:992px)  { 
 
     .ul_my_style{
-        margin-left: 7%;
-    }
-     
+        margin-left: 12%;
+    } 
 }
-
- /* @media (min-width:888px)  { 
-
-    #md_collapsed.navbar-collapse.collapse {
-        display: block!important;
-        height: auto!important;
-        padding-bottom: 0;
-        overflow: visible!important;
-    }
-
-     
-}  */
-
-
-/* utility classes */
-
-.pt_30{
+@media (max-width:991px)  { 
+    .section_1 h1>strong{
+        font-size: 30px;  
+   }
+   .section_1 p {
+    color: #B6C8FF;
+    font-size: initial;
+   } 
+   .my_blue_text{
+    line-height: 1.5;
+    font-size: 18px;
+    } 
+}  
+/* utility classes in use*/
+.pt_50{
     padding-top: 50px;
 }
-
-.pb_30{
-    padding-bottom: 30px;
+.pb_50{
+    padding-bottom: 50px;
 }
 
 .mb_0{
     margin-bottom: 0;
 }
+.text_color{
+    color: #ffff
+    ;
+}
+.height_30{
+    height: 38px;
+}
+
+.ml_end_mr{
+    margin:0  10px 0 10px ;
+}
+/*end utility classes in use*/
+
+/* utility classes not  in use*/
+
 
 .border{
     border:1px solid red ;
 }
 
-.text_color{
-    color: #ffff
-    ;
-}
+
+
