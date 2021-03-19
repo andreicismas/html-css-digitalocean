@@ -12,9 +12,17 @@
     background-color: #2485fd;
 }
 
+/* stop header */
+
+/* start main */
+
+
 .section_1{
     background-image: url(img/bg-banner-home.jpg)
 }
+ .section_1 h1{
+     font-size: 41px;
+ }
 
 .navbar-right >.sign_up_btn{
     background-color: white;
@@ -22,21 +30,25 @@
     color: blue;
 }
 
-@media (min-width:1200px)  { 
+@media (min-width:992px)  { 
 
     .ul_my_style{
-        margin-left: 14%;
+        margin-left: 7%;
     }
      
 }
 
-@media (min-width:992px) and (max-width:1200px) { 
+ /* @media (min-width:888px)  { 
 
-    .ul_my_style{
-        margin-left: 12%;
+    #md_collapsed.navbar-collapse.collapse {
+        display: block!important;
+        height: auto!important;
+        padding-bottom: 0;
+        overflow: visible!important;
     }
+
      
-}
+}  */
 
 
 /* utility classes */
@@ -54,5 +66,10 @@
 }
 
 .border{
-    border:1px solid blue ;
+    border:1px solid red ;
+}
+
+.text_color{
+    color: #ffff
+    ;
 }
