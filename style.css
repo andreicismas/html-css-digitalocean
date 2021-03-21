@@ -141,6 +141,27 @@ form .btn_form_2 {
     color: white;
 }
 
+.my_list_stile{
+    background-color: #0043c1;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+   border-radius: 0px;
+}
+
+.section_6 .my_list_stile:nth-of-type(1){
+    border-top: none;
+}
+
+.top_speed_color{
+    color: #00CFD0;
+}
+.top_speed_color:hover{
+    color: turquoise;
+    text-decoration: none;
+}
+
+
 /* stop section_6*/
 
 
@@ -179,6 +200,9 @@ form .btn_form_2 {
     padding-top: 20px;
 }
 
+.pad_0{
+    padding: 0;
+}
 
 .mb_0{
     margin-bottom: 0;
