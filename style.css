@@ -74,6 +74,7 @@ form .btn_form_2 {
  .section_1 a:hover,
  .section_2 a:hover,
  .section_3 a:hover{
+     color:black;
     text-decoration: none;
 }
 
@@ -93,7 +94,20 @@ form .btn_form_2 {
 }
 
 .font_text{
-    font-size: x-large;
+    font-size:24px;
+}
+.section_3 .my_ul_style{
+    border-left: 1px solid lightgray;
+}
+
+.section_3 .my_ul_style>ul{
+    margin-bottom: 0;
+    padding-left: 10px;
+    list-style: none;
+}
+
+.section_3 .container .aline_coll{
+    margin-bottom: 20px;
 }
 @media (min-width:992px)  { 
 
