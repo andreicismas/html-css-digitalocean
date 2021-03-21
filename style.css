@@ -114,10 +114,20 @@ form .btn_form_2 {
 /* stop section_3 */
 
 /* start section_4 */
-.section_4 .col-lg-1>a{
-    color: #6F7B97;
-    font-size: 50px;
+.section_4{
+    background-color: #F3F5F9;
+}
 
+.section_4 .col-lg-1 a{ 
+    font-size: 20px;
+}
+.img_style_sec_4{
+    width: 100%;
+}
+
+.chevron_my_style{
+position: relative;
+top: 177px;
 }
 @media (min-width:992px)  { 
 
@@ -173,14 +183,18 @@ form .btn_form_2 {
 .ml_end_mr{
     margin:0  10px 0 10px ;
 }
+
+.height_100{
+    height: 100%;
+}
 /*end utility classes in use*/
 
 /* utility classes not  in use*/
 
 
-.border{
+/* .border{
     border:1px solid red ;
 }
 
-
+ */
 
