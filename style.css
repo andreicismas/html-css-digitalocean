@@ -111,7 +111,7 @@ form .btn_form_2 {
 .section_3 .container .aline_coll{
     margin-bottom: 20px;
 }
-/* stop section_3 */
+
 
 /* start section_4 */
 .section_4{
@@ -126,9 +126,24 @@ form .btn_form_2 {
 }
 
 .chevron_my_style{
-position: relative;
-top: 177px;
+    position: relative;
+    top: 177px;
+    }
+/* stop section_4 */
+
+/* start section_6 */
+
+.section_6{
+    background-color: #0043C1;
 }
+
+.section_6>*{
+    color: white;
+}
+
+/* stop section_6*/
+
+
 @media (min-width:992px)  { 
 
     .ul_my_style{
