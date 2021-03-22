@@ -106,6 +106,8 @@ form .btn_form_2 {
     margin-bottom: 0;
     padding-left: 10px;
     list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .section_3 .container .aline_coll{
@@ -135,7 +137,8 @@ form .btn_form_2 {
 
 /* start section_6 */
 
-.section_6{
+.section_6,
+.section_8{
     background-color: #0043C1;
 }
 
@@ -174,7 +177,111 @@ form .btn_form_2 {
 
 .section_7_white{
     background-color: white;
+    border-radius: 4px;
 }
+
+.chevron_style{
+    position: relative;
+    top: 128px;
+}
+
+/* stop section_7 */
+
+
+/* start footer */
+
+footer{
+    background-color:#031C4E ;
+}
+
+.li_my_style{
+    background-color: #031c4e;
+    padding: 4px;
+    border: none;
+}
+
+footer .li_my_style>a{
+    color: #A6ADBD;
+}
+.social_style{
+    margin-right: 10px;
+    font-size: 30px;
+    color: #A6ADBD;
+}
+.footer_logo>p{
+    color: #A6ADBD;
+    margin-bottom: 0;
+}
+.footer_logo>span{
+    color: #5A6887;
+    display: block;
+}
+
+footer a>img{
+    width: 30px;
+  
+}
+
+
+
+/* stop footer */
+
+
+.container_shark{
+    position: fixed;
+    bottom: 40px;
+    right: 150px;
+  
+}
+
+.stile_shark{
+    background-color: rgba(14, 14, 206, 0.623);
+    width: 100px;
+    display: inline-block;
+    border-radius: 5px;
+
+}
+.text_shark>p{
+    margin: 0;
+}
+
+
+  
+
+.text_shark{
+   position: relative;
+    top: 15px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-right: 15px;
+    padding-left: 10px;
+    width: 330px;
+   
+}
+
+
+.caret_absolute {
+    font-size: 30px;
+    position: absolute;
+    left: 328px;
+    top: 40px;
+    color: white;
+}
+
+
+.text_shark:hover{
+    display:none ;
+}
+    
+
+.stile_shark>img{
+    width: 50%;
+}
+
 
 
 
@@ -184,8 +291,14 @@ form .btn_form_2 {
 
     .ul_my_style{
         margin-left: 12%;
-    } 
+    }
+    .chevron_my_style {
+        position: relative;
+        top: 154px;
+    }
+
 }
+
 @media (max-width:991px)  { 
     .section_1 h1>strong{
         font-size: 30px;  
@@ -198,7 +311,18 @@ form .btn_form_2 {
     line-height: 1.5;
     font-size: 18px;
     } 
+
+    .resize_img_mq{
+        width: 80%;
+        margin: auto;
+    } 
+
+
 }  
+
+@media (max-width:991px) {}
+
+
 /* utility classes in use*/
 .pt_50{
     padding-top: 50px;
@@ -246,9 +370,9 @@ form .btn_form_2 {
 /* utility classes not  in use*/
 
 
-/* .border{
+ .border{
     border:1px solid red ;
 }
 
- */
+ 
 
