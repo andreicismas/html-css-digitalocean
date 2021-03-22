@@ -12,7 +12,7 @@
     height: 100%;
 }
 
-.hamburger_style{
+.hamburger_style{   
     background-color: #2485fd;
 }
 
@@ -114,12 +114,14 @@ form .btn_form_2 {
 
 
 /* start section_4 */
-.section_4{
+.section_4,
+.section_7{
     background-color: #F3F5F9;
 }
 
-.section_4 .col-lg-1 a{ 
-    font-size: 20px;
+.section_4 .col-lg-1 a,
+.section_7 .col-lg-1 a{ 
+    font-size: 25px;
 }
 .img_style_sec_4{
     width: 100%;
@@ -163,6 +165,19 @@ form .btn_form_2 {
 
 
 /* stop section_6*/
+
+/* start section_7 */
+
+.img_style_sec_7{
+    width: 50%;
+}
+
+.section_7_white{
+    background-color: white;
+}
+
+
+
 
 
 @media (min-width:992px)  { 
