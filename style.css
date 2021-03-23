@@ -273,10 +273,15 @@ footer a>img{
 }
 
 
-.text_shark:hover{
-    display:none ;
+.container_shark:hover .text_shark{
+    display:inline-block ;
 }
-    
+
+.text_shark{
+
+    display: none;
+    position: relative;
+}
 
 .stile_shark>img{
     width: 50%;
@@ -344,7 +349,7 @@ footer a>img{
 
 }  
 
-@media (max-width:991px) {}
+
 
 
 /* utility classes in use*/
